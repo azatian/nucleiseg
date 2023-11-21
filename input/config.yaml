@@ -1,0 +1,18 @@
+dataset:
+  ann_path: data/annotations_10_17_23.pickle
+  vol_path: data/wk_ids_10_16_23.csv
+optimizer:
+  choice: Adam
+  initial_lr: 0.0001
+train:
+  logger: True
+  id: UNet1
+  logger_path: runs/
+  weights_path: outputs/weights/
+  batch_size: 16
+  epochs: 1000
+  depth: 4
+  metric: Dice Coefficient
+  test_size: .2
+  random_state: 49
+
