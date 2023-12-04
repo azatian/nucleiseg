@@ -2,7 +2,7 @@
 
 nuclei segmentation pipeline including data ingestion, preprocessing and U-Net model deployment and inference of macaque V1-V2 XNH dataset
 
-## Run
+## Run 
 
 ```bash
 python pipeline.py
