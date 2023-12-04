@@ -16,7 +16,7 @@ python pipeline.py
 
 **pipeline.py**
 
-  - Driver code that reads in customizable model configuration yaml file and implements U-Net and saves final weights
+  - Driver code that reads in customizable model configuration yaml file and deploys U-Net, saving final weights
 
 **inferencer.py**
   
